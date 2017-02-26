@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+      header
+        img(src="/images/avatar.jpg")
+        div(id="myName") Alban Lorillard
+        div(id="title")=titre
+      nav
+        ul
+          li
+            a(href="./") Moi
+          li
+            a(href="cv") Mon CV
+          li
+            a(href="projects") Mes projets
+          li
+            a(href="contact") Me contacter
+
+
