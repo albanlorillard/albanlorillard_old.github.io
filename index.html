@@ -1,28 +1,197 @@
 ---
 layout: home
 ---
-<div>
-    {% include header.html %}
+{% include header.html %}
 
-    <div>
-        <h2>A propos</h2>
-        <p>Je m'appelle Alban, j'ai 23 ans et je suis un étudiant ingénieur français en 4ème année d'informatique à l'école Polytech Nantes. Je suis particulièrement intéressé par les technlogies web et j'ai commencé à m'y intéressé assez jeune.</p>
-        <p>J'ai comme ambition professionnelle de travailler sur des projets web multimédia et innovant.</p>
-        <p>Pour l'été 2017, je recherche activement un stage à l'étranger.</p>
-    </div>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Hey, salut ! Moi c'est Alban !</h1>
+                <hr>
+                <p>Je suis un élève ingénieur en informatique en 4ème année à Polytech Nantes et je recherche actuellement un stage en informatique.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">En savoir plus !</a>
+            </div>
+        </div>
+    </header>
 
-    <div>
-        <h2>Compétences</h2>
-        <h3>Développement Web</h3>
-        <h3>Développement Logiciel</h3>
-        <h3>Outils</h3>
-        <h3>Compétences Scientifiques</h3>
-    </div>
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">A propos</h2>
+                    <hr class="light">
+                    <p class="text-faded">Je m'appelle Alban Lorillard, j'ai 23 ans et je suis élève ingénieur en 4ème année d'informatique à <a href="http://web.polytech.univ-nantes.fr/" target="_BLANK" style="color:#FFF">Polytech Nantes</a>, l'école d'ingénieur de l'université de Nantes.</p>
+                    <p class="text-faded">Passionné d'informatique, j'ai appris à l'age de 12 ans à concevoir mes premiers sites internet par l'apprentissage autodidacte d'HTML/CSS/PHP/MySQL. Aujourd'hui, mon apprentissage web se concentre sur les applications fullstack JS.</p>
+                    <p class="text-faded">Je suis plutôt de caractère calme, et persévérant face aux technologies que je ne connais pas. De même, je suis toujours partant pour travailler en équipe et avoir des objectifs.</p>
+                    <p class="text-faded">Ma formation scientifique et informatique me permet d'avoir un raisonnement algorithmique face aux défis de l'informatique.</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">En savoir d'avantage sur mes compétences</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div>
-        <h2>Réalisations</h2>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Mes compétences</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
+                        <h3>Developpement web</h3>
+                        <p class="text-muted">Du statique au dynamique, de php à javascript, de Apache à nodeJS, du front au back-end</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-flask text-primary sr-icons"></i>
+                        <h3>Developpement logiciel</h3>
+                        <p class="text-muted">Du C au C++, du Java au Python, de R à C#</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
+                        <h3>Outils</h3>
+                        <p class="text-muted">Utilisation d'outils profesionnels : Git, Gerrit, Redmine, Webstorm, Eclipse, Visual Studio...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <a href="#project" class="btn btn-primary btn-xl page-scroll">Voir mes projets</a>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <section class="no-padding" id="project">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    {% include footer.html %}
-</div>
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Voir tout mes projets !</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Gardons contact !</h2>
+                    <hr class="primary">
+                    <p>Si vous êtes intéressé par mon profil, n'attendez plus, contactez-moi dés à présent !</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>{{site.phone}}</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% include footer.html %}
