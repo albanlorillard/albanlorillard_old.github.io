@@ -49,6 +49,7 @@ p {
 }
 section {
     padding: 100px 0;
+    min-height:100%;
 }
 aside {
     padding: 50px 0;
@@ -408,4 +409,13 @@ img::-moz-selection {
 }
 body {
     webkit-tap-highlight-color: #222222;
+}
+
+footer p{
+    text-align:center;
+    font-size:8pt;
+    color: #9c9c9c;
+}
+footer p a, footer p a:hover{
+    color: #7d7d7d;
 }
