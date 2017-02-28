@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a19210-b8e8-40ad-8b3d-deea341f6aed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="albanlorillard.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -409,12 +405,12 @@
       <workItem from="1488220701710" duration="938000" />
       <workItem from="1488222095287" duration="15985000" />
       <workItem from="1488286190738" duration="138000" />
-      <workItem from="1488292517860" duration="296000" />
+      <workItem from="1488292517860" duration="351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40054000" />
+    <option name="totallyTimeSpent" value="40109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
