@@ -23,7 +23,7 @@ url: "albanlorillard.github.io" # the base hostname & protocol for your site, e.
 twitter_username: alban_lrd
 twitter_url: https://twitter.com/alban_lrd
 github_username:  albanlorillard
-
+permalink: pretty
 # Build settings
 markdown: kramdown
 
@@ -31,3 +31,5 @@ collections:
   projects:
     output: true
     permalink: /projects/:title
+
+english: "/english"

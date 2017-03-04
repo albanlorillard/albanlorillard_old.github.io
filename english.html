@@ -1,0 +1,116 @@
+---
+layout: english
+---
+{% include header.html %}
+{% include navbar.html %}
+    <header>
+        <div class="header-content" id="page-top">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Welcome on my website !</h1>
+                <hr>
+                <p>I'm a 4th year computer science student at Polytech Nantes and i seeking a 3-month internship abroad for this summer.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn more</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <hr class="light">
+                    <p class="text-faded">My name is Alban Lorillard, I'm 23 and i'm an IT engineering student at <a href="http://web.polytech.univ-nantes.fr/" target="_BLANK" style="color:#FFF">Polytech Nantes</a>, the graduate engineering school of University of Nantes.</p>
+                    <p class="text-faded">Computer enthusiast, when i was 12, i designed my own first websites by learning myself web languages like html, css, php... . Today, my web learning focus on fullstack JS website with NodeJS, AngularJS etc... .</p>
+                    <p class="text-faded">I describe myself calm and persistant about technologies. I enjoy to have goals and work with a team.</p>
+                    <p class="text-faded">My scientist and computing training make me able to have an algoritmic thinking about computing challenges.</p>
+                    <a href="#competences" class="page-scroll btn btn-default btn-xl sr-button">Know more about my skills.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">My skills</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
+                        <h3>Web development</h3>
+                        <p class="text-muted">From statics au dynamics, from php to javascript, from Apache to nodeJS, from Front to Back-end</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-flask text-primary sr-icons"></i>
+                        <h3>Software development</h3>
+                        <p class="text-muted">From C to C++, From Java to Python, From R to C#</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
+                        <h3>Tools & Project management</h3>
+                        <p class="text-muted">Use professionals tools : Git, Gerrit, Redmine, Webstorm, Eclipse, Visual Studio... <br/> Agile project with Scrum </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#project" class="btn btn-primary btn-xl page-scroll sr-button">Show my projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding bg-dark" id="project">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+
+                <!--{% increment i %}-->
+                {% for project in site.projects reversed%}
+
+                {% if i > 6 %}
+                    {% break %}
+                {% endif %}
+
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="{{site.url}}/img/portfolio/thumbnails/{{project.thumbnails}}" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    {{ project.category }}
+                                </div>
+                                <div class="project-name">
+                                    {{ project.title }}
+                                </div>
+                                <div class="project-desc">
+                                    {{ project.intro_en }}
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--{% increment i %}-->
+                {% endfor %}
+
+            </div>
+                <div class="container text-center projectBtn">
+                    <div class="call-to-action">
+                        <a href="" class="btn btn-default btn-xl sr-button btnLeft">Tous mes projets</a>
+                        <a href="#contact" class="btn btn-default btn-xl page-scroll sr-button btnRight">Me contacter</a>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
+
+{% include footer.html %}

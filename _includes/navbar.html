@@ -12,19 +12,43 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/">Accueil</a>
+                    <a href="{{site.url}}/english">
+                        {% if page.layout == "english" %}
+                        Home
+                        {%else%}
+                        Accueil
+                        {%endif%}
+                    </a>
                 </li>
                 <li>
-                    <a href="/cv">Mon CV</a>
+                    {% if page.layout == "english" %}
+                    <a href="/cv_en.pdf">My CV</a>
+                    {%else%}
+                    <a href="/cv.pdf">Mon CV</a>
+                    {%endif%}
                 </li>
                 <li>
-                    <a href="/projects">Mes projets</a>
+                    {% if page.layout == "english" %}
+                    <a href="/projects">My projects</a>
+                    {%else%}
+                    <a href="/projets">Mes projets</a>
+                    {%endif%}
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#contact">
+                        {% if page.layout == "english" %}
+                        Contact-me
+                        {%else%}
+                        Me contacter
+                        {%endif%}
+                    </a>
                 </li>
                 <li>
-                    <a href="/english">English Version</a>
+                    {% if page.layout == "english" %}
+                    <a href="{{site.url}}">Version Française</a>
+                    {%else%}
+                    <a href="{{site.url}}/english">English Version</a>
+                    {%endif%}
                 </li>
             </ul>
         </div>
