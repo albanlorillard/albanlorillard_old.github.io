@@ -73,10 +73,10 @@ layout: home
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
 
-                <!--{% increment i %}-->
+                <!--{% increment j %}-->
                 {% for project in site.projects reversed%}
 
-                {% if i > 6 %}
+                {% if j > 6 %}
                     {% break %}
                 {% endif %}
 
@@ -98,7 +98,7 @@ layout: home
                         </div>
                     </a>
                 </div>
-                <!--{% increment i %}-->
+                <!--{% increment j %}-->
                 {% endfor %}
 
             </div>
