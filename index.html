@@ -4,7 +4,7 @@ layout: home
 {% include header.html %}
 {% include navbar.html %}
     <header>
-        <div class="header-content">
+        <div class="header-content" id="page-top">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Bienvenue sur mon site !</h1>
                 <hr>
@@ -24,13 +24,13 @@ layout: home
                     <p class="text-faded">Passionné d'informatique, j'ai appris à l'age de 12 ans à concevoir mes premiers sites internet par l'apprentissage autodidacte d'HTML/CSS/PHP/MySQL. Aujourd'hui, mon apprentissage web se concentre sur les applications fullstack JS.</p>
                     <p class="text-faded">Je suis plutôt de caractère calme, et persévérant face aux technologies que je ne connais pas. De même, je suis toujours partant pour travailler en équipe et avoir des objectifs.</p>
                     <p class="text-faded">Ma formation scientifique et informatique me permet d'avoir un raisonnement algorithmique face aux défis de l'informatique.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">En savoir d'avantage sur mes compétences</a>
+                    <a href="#competences" class="page-scroll btn btn-default btn-xl sr-button">En savoir d'avantage sur mes compétences</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
+    <section id="competences">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -58,22 +58,27 @@ layout: home
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
-                        <h3>Outils</h3>
-                        <p class="text-muted">Utilisation d'outils profesionnels : Git, Gerrit, Redmine, Webstorm, Eclipse, Visual Studio...</p>
+                        <h3>Outils & gestion de projet</h3>
+                        <p class="text-muted">Utilisation d'outils professionnels : Git, Gerrit, Redmine, Webstorm, Eclipse, Visual Studio... <br/> Projet Agile en Scrum </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                    <a href="#project" class="btn btn-primary btn-xl page-scroll">Voir mes projets</a>
+            <div class="row col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#project" class="btn btn-primary btn-xl page-scroll sr-button">Voir mes projets</a>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="project">
+    <section class="no-padding bg-dark" id="project">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
 
-                {% for project in site.projects reversed %}
+                <!--{% increment i %}-->
+                {% for project in site.projects reversed%}
+
+                {% if i > 6 %}
+                    {% break %}
+                {% endif %}
 
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
@@ -93,43 +98,18 @@ layout: home
                         </div>
                     </a>
                 </div>
-
+                <!--{% increment i %}-->
                 {% endfor %}
 
             </div>
+                <div class="container text-center projectBtn">
+                    <div class="call-to-action">
+                        <a href="" class="btn btn-default btn-xl sr-button btnLeft">Tous mes projets</a>
+                        <a href="#contact" class="btn btn-default btn-xl page-scroll sr-button btnRight">Me contacter</a>
+                    </div>
+                </div>
         </div>
-    </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Voir tout mes projets !</a>
-            </div>
-        </div>
-    </aside>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Gardons contact !</h2>
-                    <hr class="primary">
-                    <p>Si vous êtes intéressé par mon profil, n'attendez plus, contactez-moi dés à présent !</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                        <i class="fa fa-linkedin fa-3x sr-contact"></i>
-                        <p><a href="{{site.linkedin}}">LinkedIn</a></p>
-                </div>
-                <div class="col-lg-4  text-center">
-                    <i class="fa fa-twitter fa-3x sr-contact"></i>
-                    <p><a href="{{site.twitter_url}}">{{site.twitter_username}}</a></p>
-                </div>
-                <div class="col-lg-4  text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
-                </div>
-            </div>
-        </div>
     </section>
 
 

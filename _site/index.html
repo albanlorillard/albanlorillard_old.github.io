@@ -48,19 +48,19 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a href="/">Accueil</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#Competences">Competences</a>
+                    <a href="/cv">Mon CV</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#Competences">Training</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    <a href="/projects">Mes projets</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="/english">English Version</a>
                 </li>
             </ul>
         </div>
@@ -69,7 +69,7 @@
     <!-- /.container-fluid -->
 </nav>
     <header>
-        <div class="header-content">
+        <div class="header-content" id="page-top">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Bienvenue sur mon site !</h1>
                 <hr>
@@ -89,13 +89,13 @@
                     <p class="text-faded">Passionné d'informatique, j'ai appris à l'age de 12 ans à concevoir mes premiers sites internet par l'apprentissage autodidacte d'HTML/CSS/PHP/MySQL. Aujourd'hui, mon apprentissage web se concentre sur les applications fullstack JS.</p>
                     <p class="text-faded">Je suis plutôt de caractère calme, et persévérant face aux technologies que je ne connais pas. De même, je suis toujours partant pour travailler en équipe et avoir des objectifs.</p>
                     <p class="text-faded">Ma formation scientifique et informatique me permet d'avoir un raisonnement algorithmique face aux défis de l'informatique.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">En savoir d'avantage sur mes compétences</a>
+                    <a href="#competences" class="page-scroll btn btn-default btn-xl sr-button">En savoir d'avantage sur mes compétences</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
+    <section id="competences">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -123,20 +123,23 @@
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
-                        <h3>Outils</h3>
-                        <p class="text-muted">Utilisation d'outils profesionnels : Git, Gerrit, Redmine, Webstorm, Eclipse, Visual Studio...</p>
+                        <h3>Outils & gestion de projet</h3>
+                        <p class="text-muted">Utilisation d'outils professionnels : Git, Gerrit, Redmine, Webstorm, Eclipse, Visual Studio... <br/> Projet Agile en Scrum </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                    <a href="#project" class="btn btn-primary btn-xl page-scroll">Voir mes projets</a>
+            <div class="row col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#project" class="btn btn-primary btn-xl page-scroll sr-button">Voir mes projets</a>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="project">
+    <section class="no-padding bg-dark" id="project">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
+
+                <!--0-->
+                
 
                 
 
@@ -158,6 +161,8 @@
                         </div>
                     </a>
                 </div>
+                <!--1-->
+                
 
                 
 
@@ -179,6 +184,8 @@
                         </div>
                     </a>
                 </div>
+                <!--2-->
+                
 
                 
 
@@ -200,6 +207,8 @@
                         </div>
                     </a>
                 </div>
+                <!--3-->
+                
 
                 
 
@@ -221,6 +230,8 @@
                         </div>
                     </a>
                 </div>
+                <!--4-->
+                
 
                 
 
@@ -242,6 +253,8 @@
                         </div>
                     </a>
                 </div>
+                <!--5-->
+                
 
                 
 
@@ -263,70 +276,63 @@
                         </div>
                     </a>
                 </div>
-
+                <!--6-->
                 
 
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Science
-                                </div>
-                                <div class="project-name">
-                                    TPE Radars Automatiques
-                                </div>
-                                <div class="project-desc">
-                                    Analyse scientifique de calcule et reproduction des radars automobiles automatique notamment par l'étude de l'effet Dopler.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
                 
+                    
 
             </div>
+                <div class="container text-center projectBtn">
+                    <div class="call-to-action">
+                        <a href="" class="btn btn-default btn-xl sr-button btnLeft">Tous mes projets</a>
+                        <a href="#contact" class="btn btn-default btn-xl page-scroll sr-button btnRight">Me contacter</a>
+                    </div>
+                </div>
         </div>
+
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Voir tout mes projets !</a>
-            </div>
-        </div>
-    </aside>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Gardons contact !</h2>
-                    <hr class="primary">
-                    <p>Si vous êtes intéressé par mon profil, n'attendez plus, contactez-moi dés à présent !</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                        <i class="fa fa-linkedin fa-3x sr-contact"></i>
-                        <p><a href="https://www.linkedin.com/in/albanlorillard/">LinkedIn</a></p>
-                </div>
-                <div class="col-lg-4  text-center">
-                    <i class="fa fa-twitter fa-3x sr-contact"></i>
-                    <p><a href="https://twitter.com/alban_lrd">alban_lrd</a></p>
-                </div>
-                <div class="col-lg-4  text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:alban.lorillard@gmail.com">alban.lorillard@gmail.com</a></p>
-                </div>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Gardons contact !</h2>
+                <hr class="primary">
+                <p>Si vous êtes intéressé par mon profil, n'attendez plus, contactez-moi dés à présent !</p>
             </div>
-        </div>
-    </section>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-linkedin fa-4x sr-contact"></i>
+                <p><a href="https://www.linkedin.com/in/albanlorillard/">Alban Lorillard</a></p>
+            </div>
+            <div class="col-lg-4  text-center">
+                <i class="fa fa-github fa-4x sr-contact"></i>
+                <p><a href="https://github.com/albanlorillard/">@albanlorillard</a></p>
+            </div>
+            <div class="col-lg-4  text-center">
+                <i class="fa fa-twitter fa-4x sr-contact"></i>
+                <p><a href="https://twitter.com/alban_lrd">@alban_lrd</a></p>
+            </div>
+            <div class="col-lg-4  text-center">
+                <i class="fa fa-envelope-o fa-4x sr-contact"></i>
+                <p><a href="mailto:alban.lorillard@gmail.com">alban.lorillard@gmail.com</a></p>
+            </div>
+            <div class="col-lg-4  text-center">
+                <i class="fa fa-file-pdf-o fa-4x sr-contact"></i>
+                <p><a href="/cv.pdf">CV en français</a></p>
+            </div>
+            <div class="col-lg-4  text-center">
+                <i class="fa fa-file-pdf-o fa-4x sr-contact"></i>
+                <p><a href="/cv_en.pdf">English CV</a></p>
+            </div>
 
+        </div>
+    </div>
+</section>
 
 <footer>
-    <p>Site web réalisé par Alban Lorillard et propulsé par Jekyll. <a href="https://github.com/albanlorillard/albanlorillard.github.io">Voir les sources</a> </p>
-    <p>Template bootstrap initial : <a href="https://github.com/BlackrockDigital/startbootstrap-creative" target="_blank">Creative de Blackrock Digital LLC</a> publié sous licence <a href="https://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.</p>
+    <p>Site web réalisé par Alban Lorillard en utilisant Jekyll. <a href="https://github.com/albanlorillard/albanlorillard.github.io">(Sources)</a> - Template bootstrap initial : <a href="https://github.com/BlackrockDigital/startbootstrap-creative" target="_blank">Creative de Blackrock Digital LLC</a> publié sous licence <a href="https://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.</p>
 </footer>
 
 <!-- jQuery -->
@@ -338,7 +344,6 @@
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="http://localhost:4000/libs/scrollreveal/scrollreveal.min.js"></script>
-<script src="http://localhost:4000/libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 <!-- Theme JavaScript -->
 <script src="http://localhost:4000/js/main.js"></script>
