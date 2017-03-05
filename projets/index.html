@@ -21,7 +21,10 @@ layout: default
                         {% endfor %}
                     </ul>
 
+                {% if project.externLink %}
                 <a href="{{project.externLink}}" target="_blank" class="cd-read-more">Voir !</a>
+                {% endif %}
+
                 <span class="cd-date">
                     {% assign mois = project.date | date: "%m"  %}
                     {% case mois %}
