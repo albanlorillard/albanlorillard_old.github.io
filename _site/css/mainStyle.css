@@ -612,8 +612,8 @@ footer p a, footer p a:hover{
     color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 13px;
-    font-size: 0.8125rem;
+    font-size: 12pt;
+    color: #5e5e5e;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     display: inline-block;
@@ -648,6 +648,27 @@ footer p a, footer p a:hover{
     border-right: 7px solid white;
 }
 
+.cd-timeline-content ul {
+    float:left;
+    width:100%;
+}
+.cd-timeline-content li {
+    color: #F05F40;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    display:inline;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0.5em;
+    margin-bottom: 0.5em;
+    font-size:8pt;
+
+    padding :0.5em;
+    border:1px dashed #F05F40;
+    float:left;
+}
+
 @media only screen and (min-width: 768px) {
     .cd-timeline-content h2 {
         font-size: 18pt;
@@ -662,28 +683,6 @@ footer p a, footer p a:hover{
         color:#5e5e5e;
         text-indent:2em;
     }
-
-    .cd-timeline-content ul {
-        float:left;
-        width:100%;
-    }
-    .cd-timeline-content li {
-        color: #F05F40;
-        text-transform: uppercase;
-        text-decoration: none;
-        list-style: none;
-        display:inline;
-        margin-top:0;
-        margin-left:0;
-        margin-right:0.5em;
-        margin-bottom: 0.5em;
-        font-size:8pt;
-
-        padding :0.5em;
-        border:1px dashed #F05F40;
-        float:left;
-    }
-
 
     .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
         font-size: 12pt;
