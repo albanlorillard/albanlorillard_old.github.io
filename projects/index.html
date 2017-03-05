@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: default_en
+layout: default
 ---
 
 <section id="cd-timeline" class="bg-primary">
@@ -21,7 +21,11 @@ layout: default_en
                     {% endfor %}
                 </ul>
 
-                <a href="#0" class="cd-read-more">See</a>
+                {% if project.externLink %}
+                    <a href="{{project.externLink}}" target="_blank" class="cd-read-more">Voir !</a>
+                {% endif %}
+
+                <span class="cd-date">
                     {{ project.date | date:"%B %Y" }}
                 </span>
             </div> <!-- cd-timeline-content -->
