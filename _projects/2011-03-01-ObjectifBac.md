@@ -16,7 +16,7 @@ categorie: Développement web
 
 category : Web Development
 
-etiquette :
+etiquettes :
     - Projet personnel
     - Php
     - Mysql
