@@ -19,7 +19,7 @@ linkedin: https://www.linkedin.com/in/albanlorillard/
 description: > # this means to ignore newlines until "baseurl:"
   Alban Lorillard personnal website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://albanlorillard.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://albanlorillard.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alban_lrd
 twitter_url: https://twitter.com/alban_lrd
 github_username:  albanlorillard

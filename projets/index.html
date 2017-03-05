@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projets
-permaling: /projets/
+
 ---
 
 {% include header.html %}
@@ -27,10 +27,28 @@ permaling: /projets/
                     </ul>
 
                 <a href="#0" class="cd-read-more">Voir !</a>
-                <span class="cd-date">{{project.date}}</span>
+                <span class="cd-date">
+                    {% assign mois = project.date | date: "%m"  %}
+                    {% case mois %}
+                        {% when '01'}Janvier
+                        {% when '02'}Février
+                        {% when '03'}Mars
+                        {% when '04'}Avril
+                        {% when '05'}Mai
+                        {% when '06'}Juin
+                        {% when '07'}Juillet
+                        {% when '08'}Aout
+                        {% when '09'}Septembre
+                        {% when '10'}Octobre
+                        {% when '11'}Novembre
+                        {% when '12'}Décembre
+                        {%else%}
+                    {% endcase %}
+
+                    {{ project.date | date:"%Y" }}
+                </span>
             </div> <!-- cd-timeline-content -->
         </div>
-
     {% endfor %}
     </div> <!-- cd-timeline-block -->
 </section>
