@@ -4,7 +4,7 @@ titre: Datavisualisation de Sun Radio - Hyblab
 
 title: Sun Radio Datavizualisation (Hyblab)
 
-intro: Création d'un site web de visualisation de données en temps réel des musiques dédicacées par les auditeurs via une application interactive sur la radio associative locale "Sun Radio" de Nantes.
+intro: Les auditeurs de la radio Sun peuvent diffuser les musiques qu'ils aiment à la radio. Comment peux-t-on visualiser ces données ? Cette dataviz nous en apprends plus sur les goûts musicaux des auditeurs de Sun!
 
 intro_en : 
 
@@ -14,11 +14,20 @@ thumbnails: 2017-hyblab.jpg
 
 categorie: Développement Web
 
+etiquettes:
+    - Projet École
+    - Hyblab
+    - NodeJS
+    - D3.JS
+    - Développement Web
+    - Mysql
+
 tags:
     - School
     - Hyblab
     - NodeJS
     - D3.js
     - Web Developpement
+    - Mysql
 
 ---
