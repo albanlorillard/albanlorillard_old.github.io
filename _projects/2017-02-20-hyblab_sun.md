@@ -6,7 +6,7 @@ title: Sun Radio Datavizualisation (Hyblab)
 
 intro: Les auditeurs de la radio Sun peuvent diffuser les musiques qu'ils aiment à la radio. En utilisant les données en direct, cette datavisualisation nous en apprends plus sur les goûts musicaux des auditeurs de Sun!
 
-intro_en : Sun Radio listeners can choose which musics will be streamed on the radio. With an usage of this data on several years, we show the behaviour of Sun Radio listeners.
+intro_en : Sun Radio listeners can choose the music which will be streamed on the radio. Using these data from several years, we represented the behaviours of the Sun Radio listeners.
 
 thumbnails: 2017-hyblab.jpg
 

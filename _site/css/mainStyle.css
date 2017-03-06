@@ -611,7 +611,7 @@ footer p a, footer p a:hover{
 .cd-timeline-content h2 {
     color: #303e49;
 }
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content {
     font-size: 12pt;
     color: #5e5e5e;
 }
@@ -669,6 +669,11 @@ footer p a, footer p a:hover{
     float:left;
 }
 
+.cd-date {
+    font-size: 12pt;
+    color: #181818;
+}
+
 @media only screen and (min-width: 768px) {
     .cd-timeline-content h2 {
         font-size: 18pt;
@@ -678,6 +683,7 @@ footer p a, footer p a:hover{
         color:#000;
         text-align: right;
     }
+
     .cd-timeline-content p {
         font-size: 12pt;
         color:#5e5e5e;
@@ -688,6 +694,7 @@ footer p a, footer p a:hover{
         font-size: 12pt;
     }
 }
+
 @media only screen and (min-width: 1170px) {
     .cd-timeline-content {
         margin-left: 0;
@@ -708,8 +715,10 @@ footer p a, footer p a:hover{
         width: 100%;
         left: 122%;
         top: 6px;
-        font-size: 16px;
-        font-size: 1rem;
+    }
+    .cd-date {
+        font-size: 18pt;
+        color: #fff;
     }
     .cd-timeline-block:nth-child(even) .cd-timeline-content {
         float: right;

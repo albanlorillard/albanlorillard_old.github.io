@@ -8,7 +8,7 @@ intro: Interface utilisateur Java permettant de gérer les 9 écrans constituant
 
 thumbnails: 2016-polyscreen.jpg
 
-intro_en : Java UI for handle the 9 screens of the wall screen link by intranet by network.
+intro_en : Java UI to handle the 9 screens of the wall screen linked by intranet by network.
 
 categorie: Développement logiciel
 

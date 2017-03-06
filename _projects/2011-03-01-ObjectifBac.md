@@ -6,7 +6,7 @@ title: Objectif Bac
 
 intro: Projet personnel de site en php/mysql de site communautaire partageant des fiches de révisions pour le bacs. Développement de mon propre wysiwyg.
 
-intro_en : Old personnal project, it's a php/mysql website for sharing and create review cards.
+intro_en : Old personal project, it's a php/mysql website to share and create review cards.
 
 thumbnails: 2011-objectifbac.jpg
 
