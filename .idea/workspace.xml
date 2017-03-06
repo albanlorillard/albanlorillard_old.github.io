@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31a19210-b8e8-40ad-8b3d-deea341f6aed" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer_en.html" afterPath="$PROJECT_DIR$/_includes/footer_en.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/english.html" afterPath="$PROJECT_DIR$/english.html" />
     </list>
     <ignored path="albanlorillard.github.io.iws" />
@@ -117,8 +118,8 @@
       <file leaf-file-name="footer_en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/footer_en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="15" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="15" />
+            <state relative-caret-position="-60">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -127,8 +128,8 @@
       <file leaf-file-name="english.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/english.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+            <state relative-caret-position="105">
+              <caret line="22" column="141" selection-start-line="22" selection-start-column="141" selection-end-line="22" selection-end-column="141" />
               <folding />
             </state>
           </provider>
@@ -242,12 +243,12 @@
         <option value="$PROJECT_DIR$/_projects/2017-02-20-hyblab_sun.md" />
         <option value="$PROJECT_DIR$/projets/index.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_includes/footer_en.html" />
         <option value="$PROJECT_DIR$/css/mainStyle.css" />
         <option value="$PROJECT_DIR$/projects/index.html" />
         <option value="$PROJECT_DIR$/_projects/2016-06-01-KPI_Project.md" />
         <option value="$PROJECT_DIR$/_projects/2011-03-01-ObjectifBac.md" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_includes/footer_en.html" />
         <option value="$PROJECT_DIR$/english.html" />
       </list>
     </option>
@@ -548,12 +549,12 @@
       <workItem from="1488622859198" duration="3086000" />
       <workItem from="1488626480814" duration="10506000" />
       <workItem from="1488715702242" duration="18634000" />
-      <workItem from="1488821429316" duration="2116000" />
+      <workItem from="1488821429316" duration="2355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82069000" />
+    <option name="totallyTimeSpent" value="82308000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,6 +751,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,14 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer_en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="15" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/navbar_en.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-297">
@@ -1058,10 +1052,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/english.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+        <state relative-caret-position="105">
+          <caret line="22" column="141" selection-start-line="22" selection-start-column="141" selection-end-line="22" selection-end-column="141" />
           <folding />
         </state>
       </provider>
