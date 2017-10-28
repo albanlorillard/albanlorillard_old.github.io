@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a19210-b8e8-40ad-8b3d-deea341f6aed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projects/2017-10-25-Innovation_Campus_Day.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="albanlorillard.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="202" lean-forward="false" selection-start-line="8" selection-start-column="202" selection-end-line="8" selection-end-column="202" />
+            <state relative-caret-position="126">
+              <caret line="20" column="152" lean-forward="true" selection-start-line="20" selection-start-column="152" selection-end-line="20" selection-end-column="152" />
               <folding />
             </state>
           </provider>
@@ -110,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-25-Innovation_Campus_Day.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-10-25-Innovation_Campus_Day.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_projects/2017-10-25-Innovation_Campus_Day.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -196,9 +195,9 @@
         <option value="$PROJECT_DIR$/_projects/2016-06-01-KPI_Project.md" />
         <option value="$PROJECT_DIR$/_projects/2017-02-20-hyblab_sun.md" />
         <option value="$PROJECT_DIR$/_projects/2017-08-25-BT_SecurityFuture.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/english.html" />
         <option value="$PROJECT_DIR$/_projects/2017-10-25-Innovation_Campus_Day.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -209,8 +208,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="405" />
-    <option name="y" value="162" />
+    <option name="x" value="-1" />
+    <option name="y" value="27" />
     <option name="width" value="1366" />
     <option name="height" value="741" />
   </component>
@@ -239,29 +238,6 @@
             <path>
               <item name="albanlorillard.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="albanlorillard.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="albanlorillard.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="albanlorillard.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="albanlorillard.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="albanlorillard.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="albanlorillard.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="albanlorillard.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="albanlorillard.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="albanlorillard.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="thumbnails" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,12 +371,12 @@
       <workItem from="1488821429316" duration="4171000" />
       <workItem from="1489667766130" duration="1533000" />
       <workItem from="1506688339391" duration="905000" />
-      <workItem from="1509195237398" duration="1193000" />
+      <workItem from="1509195237398" duration="1761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90023000" />
+    <option name="totallyTimeSpent" value="90591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,9 +388,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="162" width="1366" height="741" extended-state="0" />
+    <frame x="-1" y="27" width="1366" height="741" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21907601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21907601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32888147" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -766,14 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="202" lean-forward="false" selection-start-line="8" selection-start-column="202" selection-end-line="8" selection-end-column="202" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/english.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -801,6 +770,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="152" lean-forward="true" selection-start-line="20" selection-start-column="152" selection-end-line="20" selection-end-column="152" />
+          <folding />
         </state>
       </provider>
     </entry>
